@@ -100,7 +100,7 @@ int main()
 	//print weekly pay report
 	PrintWeeklyPay(employees, size);
 
-
+	delete[] employees;
 
 
 	(void)_getch();
